@@ -8,4 +8,4 @@
 
     - name: ML basic stack
       ansible.builtin.include_role:
-        name: ewc-ansible-ml-basic
+        name: ewc-ansible-role-ml-basic
