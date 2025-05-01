@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Mars client
+      ansible.builtin.include_role:
+        name: ewc-ansible-role-mars-client
+
+    - name: AIFS Single MSE
+      ansible.builtin.include_role:
+        name: ewc-ansible-role-aifs-single-mse
