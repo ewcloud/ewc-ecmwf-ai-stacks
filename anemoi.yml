@@ -8,4 +8,4 @@
 
     - name: Anemoi
       ansible.builtin.include_role:
-        name: ewc-ansible-role-ecmwf-anemoi
+        name: ewc-ansible-role-anemoi
