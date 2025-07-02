@@ -24,3 +24,7 @@ roles:
   - name: ewc-ansible-role-aifs-single-mse
     src: https://github.com/ewcloud/ewc-ansible-role-aifs-single-mse.git
     version: main
+
+  - name: ewc-ansible-role-aifs-ens-crps
+    src: https://github.com/ewcloud/ewc-ansible-role-aifs-ens-crps.git
+    version: main
