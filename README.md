@@ -69,7 +69,7 @@ Available Playbooks
   ansible-playbook -i inventory aifs-single-mse.yml
   ```
 
-- **aifs-single-mse**. Featuring the ECMWF AIFS ENS CRPS data-driven model. You may use the following ansible variables to customise this playbook:
+- **aifs-ens-crps**. Featuring the ECMWF AIFS ENS CRPS data-driven model. You may use the following ansible variables to customise this playbook:
   - `aifs_ens_crps_env_wipe`: Boolean to decide whether to wipe the environment if exists prior to a reinstallation. Default: no
   - `aifs_ens_crps_env_name`: Name of the environment containing the ECMWF toolbox. Default: aifs-ens-crps
   - `aifs_ens_crps_create_ipykernel`: Boolean to create a system-wide kernel available. Default: yes
