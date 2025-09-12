@@ -3,7 +3,7 @@
 roles:
   - name: ewc-ansible-role-mars-client-1.0
     src: https://github.com/ewcloud/ewc-ansible-role-mars-client.git
-    version: 1.0.0
+    version: 1.0.1
 
   - name: ewc-ansible-role-conda-1.1
     src: https://github.com/ewcloud/ewc-ansible-role-conda.git
