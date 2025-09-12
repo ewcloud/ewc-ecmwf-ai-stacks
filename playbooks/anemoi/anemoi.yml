@@ -1,0 +1,12 @@
+---
+- name: Anemoi Framework
+  hosts: all
+  become: true
+  tasks:
+    - name: Mars client
+      ansible.builtin.include_role:
+        name: ewc-ansible-role-mars-client-1.0
+
+    - name: Anemoi
+      ansible.builtin.include_role:
+        name: ewc-ansible-role-anemoi-1.0

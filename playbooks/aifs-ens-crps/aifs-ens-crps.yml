@@ -1,0 +1,12 @@
+---
+- name: AIFS ENS CRPS
+  hosts: all
+  become: true
+  tasks:
+    - name: Mars client
+      ansible.builtin.include_role:
+        name: ewc-ansible-role-mars-client-1.0
+
+    - name: AIFS ENS CRPS
+      ansible.builtin.include_role:
+        name: ewc-ansible-role-aifs-ens-crps-1.0

@@ -1,30 +1,30 @@
 ---
 # Ansible Requirements
 roles:
-  - name: ewc-ansible-role-mars-client
+  - name: ewc-ansible-role-mars-client-1.0
     src: https://github.com/ewcloud/ewc-ansible-role-mars-client.git
-    version: main
+    version: 1.0.0
 
-  - name: ewc-ansible-role-conda
+  - name: ewc-ansible-role-conda-1.1
     src: https://github.com/ewcloud/ewc-ansible-role-conda.git
-    version: main
+    version: 1.1.0
 
-  - name: ewc-ansible-role-ml-basic
+  - name: ewc-ansible-role-ml-basic-1.0
     src: https://github.com/ewcloud/ewc-ansible-role-ml-basic.git
-    version: main
+    version: 1.0.1
 
-  - name: ewc-ansible-role-anemoi
+  - name: ewc-ansible-role-anemoi-1.0
     src: https://github.com/ewcloud/ewc-ansible-role-anemoi.git
-    version: main
+    version: 1.0.1
 
-  - name: ewc-ansible-role-ai-models
+  - name: ewc-ansible-role-ai-models-1.0
     src: https://github.com/ewcloud/ewc-ansible-role-ai-models.git
-    version: main
+    version: 1.0.1
 
-  - name: ewc-ansible-role-aifs-single-mse
+  - name: ewc-ansible-role-aifs-single-mse-1.0
     src: https://github.com/ewcloud/ewc-ansible-role-aifs-single-mse.git
-    version: main
+    version: 1.0.1
 
-  - name: ewc-ansible-role-aifs-ens-crps
+  - name: ewc-ansible-role-aifs-ens-crps-1.0
     src: https://github.com/ewcloud/ewc-ansible-role-aifs-ens-crps.git
-    version: main
+    version: 1.0.1

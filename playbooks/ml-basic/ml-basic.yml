@@ -1,0 +1,12 @@
+---
+- name: ML Basic Stack
+  hosts: all
+  become: true
+  tasks:
+    - name: Mars client
+      ansible.builtin.include_role:
+        name: ewc-ansible-role-mars-client-1.0
+
+    - name: ML basic stack
+      ansible.builtin.include_role:
+        name: ewc-ansible-role-ml-basic-1.0
