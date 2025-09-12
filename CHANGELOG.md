@@ -3,3 +3,14 @@
 All notable changes to this project are documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0 (2025-09-12)
+
+
+### Bug Fixes
+
+* Added per-playbook subdirs and automation for linting and releasing ([9650b9b](https://github.com/ewcloud/ewc-ecmwf-ai-stacks/commit/9650b9b1421b1c196d03d8e13824647d97984667))
+
+
+### BREAKING CHANGES
+
+* All playbook files migrated from root dir to per-playbook subdirs
