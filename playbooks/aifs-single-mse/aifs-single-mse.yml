@@ -9,4 +9,4 @@
 
     - name: AIFS Single MSE
       ansible.builtin.include_role:
-        name: ewc-ansible-role-aifs-single-mse-1.0
+        name: ewc-ansible-role-aifs-single-mse-1.1

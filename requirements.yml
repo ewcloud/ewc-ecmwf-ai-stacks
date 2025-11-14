@@ -21,10 +21,10 @@ roles:
     src: https://github.com/ewcloud/ewc-ansible-role-ai-models.git
     version: 1.0.1
 
-  - name: ewc-ansible-role-aifs-single-mse-1.0
+  - name: ewc-ansible-role-aifs-single-mse-1.1
     src: https://github.com/ewcloud/ewc-ansible-role-aifs-single-mse.git
-    version: 1.0.1
+    version: 1.1.0
 
   - name: ewc-ansible-role-aifs-ens-crps-1.0
     src: https://github.com/ewcloud/ewc-ansible-role-aifs-ens-crps.git
-    version: 1.0.1
+    version: 1.0.2
